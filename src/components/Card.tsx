@@ -10,8 +10,7 @@ import PenIcon from './icons/Pen';
 import NoticeIcon from './icons/Notice';
 import TelegramIcon from './icons/Telegram';
 import ToggleSwitch from './ToggleSwitch';
-import ArrowDownIcon from './icons/ArrowDown'
-
+import ArrowDownIcon from './icons/ArrowDown';
 
 type CardProps = {
   user: User
