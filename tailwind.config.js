@@ -6,8 +6,26 @@ module.exports = {
       center: true,
     },
     extend: {
+      colors: {
+        't-green': '#CAF6CE',
+        'p-green': '#0CCA1F',
+        't-darkblue': '#E1E6EC',
+        'p-darkblue': '#11253E',
+        't-orange': '#F9E6BF',
+        'p-orange': '#CA8A0C',
+        't-blue': '#E2E6FF',
+        'p-blue': '#3751DB',
+
+        'p-white': '#f8f4f4',
+        'primary': '#11253E',
+        'secondary': '#8695A7'
+      },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+      },
+      fontSize: {
+        small: ['12px', { lineHeight: '12px' }],
+        mid: ['16px', { lineHeight: '16px' }]
       },
       keyframes: {
         typing: {
@@ -31,21 +49,7 @@ module.exports = {
         'typing-fast': 'typing 1s steps(3, end) infinite',
         'lift-slow': 'lift 0.2s linear',
       },
-      colors: {
-        primary: '#11253E',
-      },
     },
   },
-  plugins: [require('daisyui')],
-  daisyui: {
-    themes: [
-      {
-        winter: {
-          ...require('daisyui/src/theming/themes')['[data-theme=winter]'],
-          'primary': '#11253E',
-        },
-      },
-    ],
-  },
-
+  plugins:[]
 };

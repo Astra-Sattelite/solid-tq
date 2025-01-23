@@ -7,12 +7,18 @@ import { QueryClient, QueryClientProvider } from '@tanstack/solid-query'
 const root = document.getElementById('root')
 
 render(() => {
-    const queryClient = new QueryClient({
-        defaultOptions: {
-          queries: {
-            refetchOnWindowFocus: false,
-            retry: 0,
-          },
-        },
-      });
-      return (<QueryClientProvider client={queryClient}><App /></QueryClientProvider>)}, root!)
+  const queryClient = new QueryClient({
+    defaultOptions: {
+      queries: {
+        refetchOnWindowFocus: false,
+        retry: 0,
+      },
+    },
+  });
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <App />
+    </QueryClientProvider>
+  )
+}, root!)

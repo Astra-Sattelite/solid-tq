@@ -10,16 +10,24 @@
   },
   "dependencies": {
     "@tanstack/solid-query": "^4.36.1",
+    "@types/lodash": "^4.17.14",
+    "add": "^2.0.6",
     "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "daisyui": "^4.12.23",
-    "solid-js": "^1.9.3"
+    "lodash": "^4.17.21",
+    "skeleton": "^0.1.2",
+    "solid-js": "^1.9.4",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
-    "typescript": "~5.6.2",
-    "vite": "^6.0.5",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.11",
     "vite-plugin-solid": "^2.11.0"
   }
 }
